@@ -1,0 +1,92 @@
+
+.nx-tab-content .nx-tab-pane{
+	display:none;
+}
+
+.nx-tab-content .nx-tab-pane.nx-show{
+	display:block;
+}
+
+
+.themedev-tab-wraper *, .themedev-tab-wraper ::after, .themedev-tab-wraper ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-tab-wraper .nx-nav-link { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; outline: none; text-decoration: none; }
+
+.themedev-tab-wraper .nxadd-btn { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out; -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out; }
+
+.themedev-tab-wraper a:active, .themedev-tab-wraper a:hover, .themedev-tab-wraper a:focus, .themedev-tab-wraper a:visited { text-decoration: none; outline: 0; }
+
+.themedev-tab-wraper li, .themedev-tab-wraper ul { margin: 0px; padding: 0px; list-style: none; }
+
+.themedev-tab-wraper .nxadd-btn:not([class*="btn-outline-"]) { border: 0px; }
+
+.themedev-tab-wraper .nxadd-btn:focus, .themedev-tab-wraper .nxadd-btn:hover { text-decoration: none; border: unset; }
+
+.themedev-tab-wraper .nxadd-btn:not(:disabled):not(.disabled) { cursor: pointer; }
+
+.themedev-tab-wraper .nxadd-btn { line-height: 40px; border-radius: 5px; font-size: 12px; padding: 14px 20px; font-weight: 700; text-transform: uppercase; }
+
+.themedev-tab-wraper .nxadd-btn-primary { color: #ffffff; background-color: #ff0000; border-color: #ff0000; }
+
+.themedev-tab-wraper .nxadd-btn-primary:hover { color: #fff; background-color: #0a7d79; border-color: #0a7d79; }
+
+.themedev-tab-wraper .tab-des { margin: 0; font-size: 15px; }
+
+.themedev-tab-wraper .tab-img { width: 100%; vertical-align: middle; }
+
+.themedev-tab-wraper .nx-tab-style { width: 100%; max-width: 100%; }
+
+.themedev-tab-wraper .nx-tab-style.left-tab, .themedev-tab-wraper .nx-tab-style.right-tab { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.themedev-tab-wraper .nx-tab-style.left-tab .nx-nav-tabs, .themedev-tab-wraper .nx-tab-style.right-tab .nx-nav-tabs { -ms-flex-preferred-size: 30%; flex-basis: 30%; margin-right: 10px; }
+
+.themedev-tab-wraper .nx-tab-style.left-tab .nx-nav-tabs .nav-item, .themedev-tab-wraper .nx-tab-style.right-tab .nx-nav-tabs .nav-item { width: 100%; margin: 0; }
+
+.themedev-tab-wraper .nx-tab-style.left-tab .nx-nav-tabs .nav-item:not(last-child), .themedev-tab-wraper .nx-tab-style.right-tab .nx-nav-tabs .nav-item:not(last-child) { margin-bottom: 10px; }
+
+.themedev-tab-wraper .nx-tab-style.right-tab .nx-nav-tabs { margin-right: 0px; margin-left: 10px; -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+
+.themedev-tab-wraper .nx-tab-style.right-tab .nx-tab-content { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs { border-bottom: 0px solid #000; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs.nx-full-tab .nav-item { max-width: 100%; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs.nx-full-tab .nav-item:not(last-child) { margin-right: 20px; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs.nx-full-tab .nav-item .nx-nav-link { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item { margin-bottom: 0px; display: inline-block; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item:not(last-child) { margin-right: 10px; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item .nx-nav-link { color: #009d97; padding: 18px 30px; font-weight: 600; background-color: #FFF; border-radius: 0px; border: 1px solid #009d97; position: relative; font-size: 17px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; white-space: nowrap; line-height: 1; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item .nx-nav-link .nextaddons-icon { margin-right: 10px; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item .nx-nav-link.nx-top-icon { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item .nx-nav-link.nx-right-icon { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item .nx-nav-link.nx-bottom-icon { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+.themedev-tab-wraper .nx-tab-style .nx-nav-tabs .nav-item .nx-nav-link.nx-active { background-color: #009d97; color: #fff; }
+
+.themedev-tab-wraper .nx-tab-style .nx-tab-content .nx-tab-pane { display: none; }
+
+.themedev-tab-wraper .nx-tab-style .nx-tab-content .nx-tab-pane.nx-show { display: block; }
+
+.themedev-tab-wraper .nx-tab-style .nx-tab-content .nx-tab-pane .tab-title { margin: 0; }
+
+.themedev-tab-wraper .nx-tab-style .nx-tab-content .nx-tab-pane { padding-top: 20px; padding-bottom: 20px; }
+
+.themedev-tab-wraper .nx-tab-style .nx-tab-content .nx-tab-pane.nanimated { -webkit-animation-duration: 1.5s; animation-duration: 1.5s; }
+
+.themedev-tab-wraper .nx-tab-style .nx-tab-group { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+
+.themedev-tab-wraper.bg-gray { background-color: #f7f9fc; }
+
+@media (max-width: 480px) { 
+  .themedev-element-wraper .nx-tab-style .nx-tab-group { display: block; }
+  .themedev-element-wraper .nx-media { display: block; } }

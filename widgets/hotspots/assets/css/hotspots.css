@@ -1,0 +1,77 @@
+section.themedev-hotspots-area { margin: 0; padding: 0; }
+
+.themedev-hotspots-area { background-size: cover; background-position: center center; background-repeat: no-repeat; position: relative; }
+
+.themedev-hotspots-area *, .themedev-hotspots-area ::after, .themedev-hotspots-area ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-hotspots-area a { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; outline: none; text-decoration: none; }
+
+.themedev-hotspots-area a:active, .themedev-hotspots-area a:hover, .themedev-hotspots-area a:focus, .themedev-hotspots-area a:visited { text-decoration: none; outline: 0; }
+
+.themedev-hotspots-area .nxadd-btn:not([class*="btn-outline-"]) { border: 0px; }
+
+.themedev-hotspots-area .nxadd-btn:focus, .themedev-hotspots-area .nxadd-btn:hover { text-decoration: none; border: unset; }
+
+.themedev-hotspots-area .nxadd-btn:not(:disabled):not(.disabled) { cursor: pointer; }
+
+.themedev-hotspots-area .nxadd-btn { display: inline-block; background-color: #009d97; color: #ffffff; line-height: 40px; border-radius: 5px; font-size: 13px; font-weight: 400; text-align: center; padding: 0px 20px; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; pointer-events: none; }
+
+.themedev-hotspots-area .nxadd-btn:not(:last-child) { margin-right: 15px; }
+
+.themedev-hotspots-area .nxadd-hots-pots-inner .hotspots-icon-wrap .hotspot-icon { font-size: 12px; line-height: 2.5em; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper { position: relative; max-width: 1040px; margin: 0 auto; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image { position: relative; width: 100%; height: 100%; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hotspots-content { background-color: #009d97; padding: 6px; color: #fff; border-radius: 10px; z-index: 999; -webkit-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hotspots-content.top-bar:before { content: ''; position: absolute; bottom: -12px; left: 50%; -webkit-transform: translateY(-50%) translateX(-50%) rotate(-45deg); -ms-transform: translateY(-50%) translateX(-50%) rotate(-45deg); transform: translateY(-50%) translateX(-50%) rotate(-45deg); border-top: 14px solid transparent; border-left: 14px solid #009d97; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hotspots-content.left-bar:before { content: ''; position: absolute; top: 22px; right: -6px; -webkit-transform: translateY(-50%) rotate(45deg); -ms-transform: translateY(-50%) rotate(45deg); transform: translateY(-50%) rotate(45deg); border-bottom: 14px solid transparent; border-right: 14px solid #009d97; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hotspots-content.bottom-bar:before { content: ''; position: absolute; bottom: 70%; left: 46%; -webkit-transform: translateY(-50%) rotate(316deg); -ms-transform: translateY(-50%) rotate(316deg); transform: translateY(-50%) rotate(316deg); border-bottom: 14px solid transparent; border-right: 14px solid #009d97; top: auto; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hotspots-content.right-bar:before { content: ''; position: absolute; top: 22px; left: -6px; -webkit-transform: translateY(-50%) rotate(45deg); -ms-transform: translateY(-50%) rotate(225deg); transform: translateY(-50%) rotate(225deg); border-bottom: 14px solid transparent; border-right: 14px solid #009d97; z-index: -1; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hotspots-content .nxadd-hotspot-title { margin: 0 0 10px; font-size: 20px; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hotspots-content .nxadd-hotspot-des { margin: 0; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hots-pots-inner { cursor: pointer; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; color: inherit; z-index: 1; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hots-pots-inner.hotspots-ring { position: absolute; width: 20px; height: 20px; border-radius: 100px; opacity: 1; -webkit-animation: nx-pulse-default 2s ease-out infinite; animation: nx-pulse-default 2s ease-out infinite; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hots-pots-inner.normal-style { position: absolute; width: 3.4em; height: 3.4em; line-height: 1; border-radius: 100px; opacity: 1; background-color: #ccc; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image .nxadd-hots-pots-inner.nxadd-round { position: absolute; width: 20px; height: 20px; border-radius: 100px; opacity: 1; background-color: #ccc; -webkit-animation: nx-pulse-white 2000ms infinite; animation: nx-pulse-white 2000ms infinite; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-2 .nxadd-hotspots-content { background-color: #000; color: #fff; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-2 .nxadd-hotspots-content:before { border-color: #000; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-3 .nxadd-hotspots-content { width: 100%; max-width: 220px; padding: 20px; -webkit-transform: translateY(-20%); -ms-transform: translateY(-20%); transform: translateY(-20%); -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.2, 1); -o-transition: all 0.3s cubic-bezier(0, 0, 0.2, 1); transition: all 0.3s cubic-bezier(0, 0, 0.2, 1); }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-3 .nxadd-hotspots-content.nx-show { -webkit-transform: translateY(0%); -ms-transform: translateY(0%); transform: translateY(0%); -webkit-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-3 .nxadd-hots-pots-inner.nx-active { -webkit-transform: rotate(40deg); -ms-transform: rotate(40deg); transform: rotate(40deg); -webkit-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-3 .nxadd-hots-pots-inner.nx-active .hotspots-icon-wrap .hotspot-icon { color: #ea0404; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-3 .nxadd-hots-pots-inner .hotspots-icon-wrap .hotspot-icon { font-size: 35px; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-4 .nxadd-hotspots-content { padding: 20px; max-width: 220px; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-4 .nxadd-hotspots-content.top-bar:before { bottom: -14px; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-4 .nxadd-hotspots-content .nx-icon { font-size: 40px; background-color: #000; padding: 10px; border-radius: 50px; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-4 .nxadd-hotspots-content .nxadd-hotspot-title { margin: 10px 0 10px; }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-4 .nxadd-hotspots-content.nx-show { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+
+.themedev-hotspots-area .nxadd-hotspots-wrapper .nxadd-hot-spots-image.style-4 .nxadd-hots-pots-inner.nxadd-round { position: absolute; width: 2.4em; height: 2.4em; line-height: 1; border-radius: 100px; opacity: 1; background-color: #ea0404; color: #fff; font-size: 16px; -webkit-animation: nx-pulse-white 2000ms infinite; animation: nx-pulse-white 2000ms infinite; }
+
+.themedev-hotspots-area img { width: 100%; vertical-align: middle; }
+
+/*animation CSS Start here*/

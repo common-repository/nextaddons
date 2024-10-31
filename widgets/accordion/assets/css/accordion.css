@@ -1,0 +1,70 @@
+
+.themedev-tab-wrapper .nxadd-accordion { counter-reset: myNumber; }
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card { border: 0px; border-radius: 0px; background-color: transparent;  }
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card:not(:last-child) { margin-bottom: 10px; }
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header { padding: 0px; background-color: transparent; border-bottom: 0px solid #000; }
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse { display: flex; align-items: center; color: #000; background-color: #f0f0f0; font-size: 15px; font-weight: 700; padding: 14px 30px; cursor: pointer; border: 1px solid transparent; transition: all 0.4s ease; }
+
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse > .nx-icon { color: #009d97; font-size: 16px;  transition: .3s ease-in-out 0s; }
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse > .nx-icon.left-icon2{
+    display: none;
+}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse.open > .nx-icon.left-icon2{
+    display: block;
+}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse.open > .nx-icon.left-icon1{
+    display: none;
+}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse > .nx-icon.right-icon2{
+    display: none;
+}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse.open > .nx-icon.right-icon2{
+    display: block;
+}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header > .nx-click-collapse.open > .nx-icon.right-icon1{
+    display: none;
+}
+
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header .nx-hide-collapse { 
+	
+	transition: .3s ease-in-out 0s;
+    overflow: hidden;
+    height: 0;
+ }
+
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header.nx-visible .nx-hide-collapse{
+	height: 200px;
+}
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header.nx-visible.active .nx-hide-collapse{
+	height: auto;
+	overflow: auto;
+}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-header .nx-hide-collapse .nx-card-body { padding: 30px 85px 30px 65px; }
+
+
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .nx-card-body { padding: 20px 30px; font-size: 15px;
+    line-height: 22px;}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .number:before { counter-increment: myNumber; content: counter(myNumber) "."; }
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .right-icon { right: 0; position: absolute; margin-right: 30px;}
+
+.themedev-tab-wrapper .nxadd-accordion .nx-card .left-icon { padding-right: 20px; }
+
+
+

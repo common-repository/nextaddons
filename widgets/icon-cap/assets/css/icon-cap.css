@@ -1,0 +1,41 @@
+.themedev-icon-caps-area *, .themedev-icon-caps-area :after, .themedev-icon-caps-area :before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-icon-caps-area a { text-decoration: none; }
+
+.themedev-icon-caps-area a:active, .themedev-icon-caps-area a:hover, .themedev-icon-caps-area a:focus, .themedev-icon-caps-area a:visited { text-decoration: none; outline: 0; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper { display: block; padding: 40px; text-align: center; position: relative; background-color: #fff; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon { display: block; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon .nextaddons-icon:before { font-size: 48px; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-caps-title-wrap { margin: 0; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-caps-title-wrap .nxadd-icon-caps-title { font-size: 18px; font-weight: 600; line-height: 24px; color: #000; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-top-layout { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-top-layout .nxadd-icon-caps-title-wrap { margin-top: 20px; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-bottom-layout { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-bottom-layout .nxadd-icon-caps-title-wrap { margin-bottom: 20px; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-left-layout { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-left-layout .nxadd-icon-caps-title-wrap { margin-left: 20px; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-right-layout { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-wrapper .nxadd-icon-inner.nx-right-layout .nxadd-icon-caps-title-wrap { margin-right: 20px; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-badge { position: absolute; top: 0; left: 0; background-color: #000; color: #fff; padding: 10px; font-size: 12px; font-weight: 600; border-radius: 5px; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-badge.nx-top-right { right: 0; left: auto; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-badge.nx-left-bottom { bottom: 0; top: auto; }
+
+.themedev-icon-caps-area .nxadd-icon-caps-badge.nx-right-bottom { right: 0; left: auto; top: auto; bottom: 0; }

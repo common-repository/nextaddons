@@ -1,0 +1,103 @@
+section.themeDev-tooltip-wraper { padding: 0; margin: 0; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip { display: inline-block; padding: 12px 24px; position: relative; min-width: 150px; text-align: center; color: #000; cursor: pointer; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .tooltip-icon-link { text-decoration: none; width: 100%; display: block; text-align: center; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .tooltip-icon-link .nextaddons-icon { font-size: 60px; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text { display: block; width: 100%; background-color: #2575fc; color: #fff; font-size: 14px; padding: 10px; border-radius: 4px; position: absolute; z-index: 1; line-height: 1.3; opacity: 0; visibility: hidden; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.effect-1 { -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.effect-2 { -webkit-transform: rotateZ(-45deg) translateY(0%); -ms-transform: rotate(-45deg) translateY(0%); transform: rotateZ(-45deg) translateY(0%); -webkit-transform-origin: 100% 0; -ms-transform-origin: 100% 0; transform-origin: 100% 0; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.effect-3 { -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.effect-4 { -webkit-transform: rotateZ(-90deg) translateY(0%); -ms-transform: rotate(-90deg) translateY(0%); transform: rotateZ(-90deg) translateY(0%); -webkit-transform-origin: 0% 100%; -ms-transform-origin: 0% 100%; transform-origin: 0% 100%; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text:after { content: ''; position: absolute; border-style: solid; border-width: 5px; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-right-bar { margin-left: 10px; top: 50%; left: 100%; right: auto; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-bottom-bar { margin-top: 10px; top: 100%; left: 0; right: 0; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-left-bar { margin-right: 10px; top: 50%; right: 100%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); left: auto; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-top-bar { bottom: 100%; left: 0; right: 0; margin: 0 auto 10px auto; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-right-bar:after { border-color: transparent #2575fc transparent transparent; top: 39%; right: 100%; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-bottom-bar:after { border-color: transparent transparent #2575fc transparent; margin-top: 0; bottom: 100%; left: calc(50% - 5px); }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-left-bar:after { border-color: transparent transparent transparent #2575fc; right: -6%; top: 38%; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip .nxadd-tooltip-text.tooltip-top-bar:after { border-color: #2575fc transparent transparent transparent; left: 46%; top: 100%; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text { -webkit-animation-duration: 200ms; animation-duration: 200ms; visibility: visible; opacity: 1; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.tooltip-right { -webkit-animation: nx-tooltipRightIn .3s linear; animation: nx-tooltipRightIn .3s linear; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.tooltip-bottom { -webkit-animation: nx-tooltipBottomIn .3s linear; animation: nx-tooltipBottomIn .3s linear; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.tooltip-left { -webkit-animation: nx-tooltipLeftIn .3s ease-in-out; animation: nx-tooltipLeftIn .3s ease-in-out; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.tooltip-top { -webkit-animation: nx-tooltipTopIn .3s linear; animation: nx-tooltipTopIn .3s linear; }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.effect-1 { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.effect-2 { -webkit-transform: rotateZ(0) translateY(0); -ms-transform: rotate(0) translateY(0); transform: rotateZ(0) translateY(0); -webkit-transition-delay: .1s; -o-transition-delay: .1s; transition-delay: .1s; -webkit-transition: all 0.5s cubic-bezier(0.5, 0.12, 0.46, 0.88); -o-transition: all 0.5s cubic-bezier(0.5, 0.12, 0.46, 0.88); transition: all 0.5s cubic-bezier(0.5, 0.12, 0.46, 0.88); }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.effect-3 { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .nxadd-tooltip:hover .nxadd-tooltip-text.effect-4 { -webkit-transform: rotateZ(0) translateY(0); -ms-transform: rotate(0) translateY(0); transform: rotateZ(0) translateY(0); -webkit-transition-delay: .1s; -o-transition-delay: .1s; transition-delay: .1s; -webkit-transition: all 0.5s cubic-bezier(0.5, 0.12, 0.46, 0.88); -o-transition: all 0.5s cubic-bezier(0.5, 0.12, 0.46, 0.88); transition: all 0.5s cubic-bezier(0.5, 0.12, 0.46, 0.88); }
+
+.themeDev-tooltip-wraper .nxadd-tooltip-item .tooltip-img { width: 100%; vertical-align: middle; -o-object-fit: cover; object-fit: cover; }
+
+@-webkit-keyframes nx-tooltipRightIn { 0% { left: 105%; }
+  100% { left: 100%; } }
+
+@-moz-keyframes nx-tooltipRightIn { 0% { left: 105%; }
+  100% { left: 100%; } }
+
+@-o-keyframes nx-tooltipRightIn { 0% { left: 105%; }
+  100% { left: 100%; } }
+
+@keyframes nx-tooltipRightIn { 0% { left: 105%; }
+  100% { left: 100%; } }
+
+@-webkit-keyframes nx-tooltipBottomIn { 0% { top: 110%; }
+  100% { top: 100%; } }
+
+@-moz-keyframes nx-tooltipBottomIn { 0% { top: 110%; }
+  100% { top: 100%; } }
+
+@-o-keyframes nx-tooltipBottomIn { 0% { top: 110%; }
+  100% { top: 100%; } }
+
+@keyframes nx-tooltipBottomIn { 0% { top: 110%; }
+  100% { top: 100%; } }
+
+@-webkit-keyframes nx-tooltipLeftIn { 0% { right: 110%; }
+  100% { right: 100%; } }
+
+@-o-keyframes nx-tooltipLeftIn { 0% { right: 110%; }
+  100% { right: 100%; } }
+
+@-moz-keyframes nx-tooltipLeftIn { 0% { right: 110%; }
+  100% { right: 100%; } }
+
+@keyframes nx-tooltipLeftIn { 0% { right: 110%; }
+  100% { right: 100%; } }
+
+@-webkit-keyframes nx-tooltipTopIn { 0% { bottom: 110%; }
+  100% { bottom: 100%; } }
+
+@-o-keyframes nx-tooltipTopIn { 0% { bottom: 110%; }
+  100% { bottom: 100%; } }
+
+@-moz-keyframes nx-tooltipTopIn { 0% { bottom: 110%; }
+  100% { bottom: 100%; } }
+
+@keyframes nx-tooltipTopIn { 0% { bottom: 110%; }
+  100% { bottom: 100%; } }

@@ -1,0 +1,85 @@
+section.themedev-countdown-wraper { margin: 0; padding: 0; }
+
+.themedev-countdown-wraper { background-size: cover; background-position: center center; background-repeat: no-repeat; position: relative; }
+
+.themedev-countdown-wraper *, .themedev-countdown-wraper ::after, .themedev-countdown-wraper ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-countdown-wraper a { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; outline: none; text-decoration: none; }
+
+.themedev-countdown-wraper a:active, .themedev-countdown-wraper a:hover, .themedev-countdown-wraper a:focus, .themedev-countdown-wraper a:visited { text-decoration: none; outline: 0; }
+
+.themedev-countdown-wraper .nxadd-btn:not([class*="btn-outline-"]) { border: 0px; }
+
+.themedev-countdown-wraper .nxadd-btn:focus, .themedev-countdown-wraper .nxadd-btn:hover { text-decoration: none; border: unset; }
+
+.themedev-countdown-wraper .nxadd-btn:not(:disabled):not(.disabled) { cursor: pointer; }
+
+.themedev-countdown-wraper .nxadd-btn { display: inline-block; background-color: #009d97; color: #ffffff; line-height: 40px; border-radius: 5px; font-size: 13px; font-weight: 400; text-align: center; padding: 0px 20px; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; pointer-events: none; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer { width: 100%; display: inline-block; position: relative; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer .nx-countdown { width: 100%; max-width: 150px; height: 150px; display: inline-block; background-color: #443aca; margin: 15px; border-radius: 50%; padding: 40px 0; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer .nx-countdown * { display: block; font-size: 35px; font-weight: 700; margin: 0; color: #fff; padding: 0; letter-spacing: 2px; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer .nx-countdown p { font-size: 14px; font-weight: 400; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-2 .nx-countdown { background-color: #fff; -webkit-box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.2); border: 3px solid #656565; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-3 .nx-countdown { background-color: #fff; -webkit-box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.2); border: 1px solid #f5f5f5; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-3 .nx-countdown * { color: #000; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-3 .nx-countdown.days * { color: #2575fc; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-3 .nx-countdown.hours * { color: #009d97; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-3 .nx-countdown.minutes * { color: #f40022; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-3 .nx-countdown.seconds * { color: #b5a700; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-4 .nx-countdown { background-color: #fff; -webkit-box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 28px 40px 0px rgba(0, 0, 0, 0.2); }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-4 .nx-countdown.days { background-color: #f69f00; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-4 .nx-countdown.hours { background-color: #a01a1a; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-4 .nx-countdown.minutes { background-color: #040ade; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-4 .nx-countdown.seconds { background-color: #04deca; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-5 .nx-countdown { background-position: center center; background-repeat: no-repeat; background-size: cover; position: relative; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-5 .nx-countdown.days { background-image: url(../img/countdown-bg-1.jpg); }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-5 .nx-countdown.hours { background-image: url(../img/countdown_bg.jpg); }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-5 .nx-countdown.minutes { background-image: url(../img/countdown-bg-3.jpg); }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-5 .nx-countdown.seconds { background-image: url(../img/counter_img_3.jpg); }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-5 .nx-countdown:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); opacity: .5; border-radius: 50%; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-6 .nx-countdown { padding: 18px 0; background-color: transparent; z-index: 1; position: relative; border: 2px solid #009d97; color: #009d97; border-radius: 10px; height: 120px; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-6 .nx-countdown h2 { color: #009d97; margin-top: 10px; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-6 .nx-countdown p { display: block; border: 2px solid #009d97; border-radius: 10px; line-height: 40px; background-color: #fff; z-index: 1; margin: 15px 20px 0 20px; color: #009d97; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-7 { z-index: 10; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-7 .nx-countdown { border-radius: 10px; background-color: #FFF; color: #ff5657; height: 130px; border: 3px solid currentColor; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-7 .nx-countdown h2 { color: #ff5657; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-7 .nx-countdown p { display: block; border-radius: 10px; margin: 15px -4px 0; line-height: 30px; background-color: #ff5657; z-index: 1; color: #FFF; border: 3px solid #fff; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-8 { position: relative; z-index: 1; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-8 .nx-countdown { position: relative; border-radius: 0px 0px 30px 30px; padding: 0; height: 125px; background-color: transparent; -webkit-box-shadow: 0px 28px 48px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 28px 48px 0px rgba(0, 0, 0, 0.1); }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-8 .nx-countdown h2 { font-size: 48px; line-height: 130px; color: #000; border-radius: 10px; position: relative; z-index: -1; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-8 .nx-countdown p { background-color: #5956ff; position: relative; z-index: 10; line-height: 40px; -webkit-box-shadow: inset 0px 3px 7px 0px rgba(0, 0, 0, 0.35); box-shadow: inset 0px 3px 7px 0px rgba(0, 0, 0, 0.35); border-radius: 30px 30px 0px 0px; top: -160px; }
+
+.themedev-countdown-wraper .nxadd-countdown-timer.style-8 .nx-countdown:before, .themedev-countdown-wraper .nxadd-countdown-timer.style-8 .nx-countdown:after { position: absolute; content: ""; top: 50%; right: 0; width: 100%; height: auto; border-top: 3px solid #e7e7e7; z-index: -1; left: 0; }

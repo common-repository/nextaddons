@@ -1,0 +1,64 @@
+.elementor-element .icon .nexticons{
+	position:relative;
+}
+
+.elementor-element .icon .nexticons:after {
+    content: 'NX';
+    position: absolute;
+    font-size: 10px;
+    top: 16px;
+    left: -41px;
+    border: 1px solid #556068;
+    padding: 2px 3px;
+    border-radius: 4px;
+    color: #556068;
+    line-height: 10px;
+	opacity:.4;
+}
+
+.elementor-panel .elementor-element:hover .icon .nexticons:after {
+    color: #d30c5c;
+	border: 1px solid #d30c5c;
+	opacity:1;
+}
+
+.elementor-element .icon .nexticons.addons-pro:after {
+	content: 'PRO';
+	color: #f2295b;
+	border: 1px solid #f2295b;
+}
+
+.elementor-control-_section_next_scroll_setting .elementor-panel-heading-title, 
+.elementor-control-_section_next_link .elementor-panel-heading-title, 
+.elementor-control-_section_next_scroll .elementor-panel-heading-title, 
+.elementor-control-_next_effects .elementor-panel-heading-title, 
+.elementor-control-_next_transform .elementor-panel-heading-title, 
+.elementor-control-section_effects .elementor-panel-heading-title, 
+.elementor-control-_nx_section_background_overlay .elementor-panel-heading-title, 
+.elementor-control-nx_column_features_heading .elementor-control-title 
+{
+    color: #f2295bb8;
+}
+
+.elementor-control-_section_next_scroll_setting .elementor-panel-heading-title:before, 
+.elementor-control-_section_next_link .elementor-panel-heading-title:before, 
+.elementor-control-_section_next_scroll .elementor-panel-heading-title:before, 
+.elementor-control-_next_effects .elementor-panel-heading-title:before, 
+.elementor-control-_next_transform .elementor-panel-heading-title:before, 
+.elementor-control-section_effects .elementor-panel-heading-title:before, 
+.elementor-control-_nx_section_background_overlay .elementor-panel-heading-title:before, 
+.elementor-control-nx_column_features_heading .elementor-control-title:before 
+{
+    content: 'NX';
+    position: absolute;
+    font-size: 10px;
+    top: 14px;
+    left: auto;
+    right: 17px;
+    border: 1px solid #f2295b;
+    padding: 2px 3px;
+    border-radius: 4px;
+    color: #f2295b;
+    line-height: 10px;
+	opacity:1;
+}

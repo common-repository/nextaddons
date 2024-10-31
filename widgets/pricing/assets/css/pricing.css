@@ -1,0 +1,133 @@
+section.themedev-pricing-area { padding: 0; margin: 0; }
+
+.themedev-pricing-area { background-size: cover; background-position: center center; background-repeat: no-repeat; position: relative; }
+
+.themedev-pricing-area *, .themedev-pricing-area ::after, .themedev-pricing-area ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-pricing-area a { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; outline: none; text-decoration: none; }
+
+.themedev-pricing-area a:active, .themedev-pricing-area a:hover, .themedev-pricing-area a:focus, .themedev-pricing-area a:visited { text-decoration: none; outline: 0; }
+
+.themedev-pricing-area .nxadd-btn:not([class*="btn-outline-"]) { border: 0px; }
+
+.themedev-pricing-area .nxadd-btn:focus, .themedev-pricing-area .nxadd-btn:hover { text-decoration: none; border: unset; }
+
+.themedev-pricing-area .nxadd-btn:not(:disabled):not(.disabled) { cursor: pointer; }
+
+.themedev-pricing-area .nxadd-btn { display: inline-block; font-weight: 400; text-align: center; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; line-height: 1; }
+
+.themedev-pricing-area .nxadd-pricing-table { background-color: #FFF; border: 1px solid #e7e7e7; border-radius: 10px; padding-top: 40px; padding-bottom: 40px; padding-left: 30px; padding-right: 30px; position: relative; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; z-index: 1; }
+
+.themedev-pricing-area .nxadd-pricing-table:not(:last-child) { margin-right: 30px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-header { margin-bottom: 30px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-header .nx-icon { font-size: 50px; margin-bottom: 10px; display: block; color: #009d97; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-header .pricing-title { margin: 0; color: #000; font-size: 25px; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-pricing-area .nxadd-pricing-table .pricing-subtitle { color: #cccccc; font-size: 15px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-price { position: relative; padding: 10px 0px; margin-bottom: 30px; color: #000000; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-price .nxadd-price { position: relative; z-index: 2; font-size: 38px; letter-spacing: -.4px; font-weight: 700; color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-price .nxadd-price > sup { font-size: 16px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-price .nxadd-price span { font-size: 16px; display: block; font-weight: 400; font-style: italic; z-index: 1; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-price .nxadd-price .nx-before-price { text-decoration: line-through; color: rgba(255, 255, 255, 0.68); font-size: 18px; font-weight: 400; line-height: 1; vertical-align: middle; display: inline-block; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-price .nxadd-price > sub { vertical-align: super; font-size: 16px; font-weight: 400; line-height: inherit; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-content p { margin: 0; color: #000; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-content .nxadd-pricing-list { list-style: none; margin: 0; padding: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-content .nxadd-pricing-list li { color: #fff; font-size: 14px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-content .nxadd-pricing-list li:not(:last-child) { margin-bottom: 10px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-content .nxadd-pricing-list.nx-icon li:before { content: "\f00c"; font-family: 'nx-icon'; font-size: 15px; margin-right: 10px; color: #55b559; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-content .nxadd-pricing-list.nx-icon li.nx-cross:before { content: "\f00d"; font-family: 'nx-icon'; font-size: 10px; margin-right: 10px; color: #55b559; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-action { margin-top: 30px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-pricing-tag { position: absolute; height: 100%; width: calc(100% + 30px); -webkit-box-shadow: 19.799px 19.799px 40px 0px rgba(0, 0, 0, 0.1); box-shadow: 19.799px 19.799px 40px 0px rgba(0, 0, 0, 0.1); top: 0; right: 0; border-radius: 0px 50px 50px 0px; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; background: #009d97; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-btn { border-radius: 5px; font-size: 15px; padding: 14px 25px; }
+
+.themedev-pricing-area .nxadd-pricing-table .nxadd-btn.nxadd-btn-outline-primary { background-color: #fff; color: #000; border-color: #ccc; }
+
+.themedev-pricing-area .nxadd-pricing-table:hover, .themedev-pricing-area .nxadd-pricing-table.nxadd-active { background: #009d97; }
+
+.themedev-pricing-area .nxadd-pricing-table:hover .nxadd-pricing-tag, .themedev-pricing-area .nxadd-pricing-table.nxadd-active .nxadd-pricing-tag { background: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table:hover .nxadd-pricing-header .pricing-title, .themedev-pricing-area .nxadd-pricing-table.nxadd-active .nxadd-pricing-header .pricing-title { color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table:hover .nxadd-pricing-content p, .themedev-pricing-area .nxadd-pricing-table.nxadd-active .nxadd-pricing-content p { color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table:hover .nxadd-pricing-price .nxadd-price, .themedev-pricing-area .nxadd-pricing-table.nxadd-active .nxadd-pricing-price .nxadd-price { color: #000; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style { background-color: #000; border-radius: 0; border: unset; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style .nxadd-pricing-header { color: #fff; margin: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style .nxadd-pricing-header .pricing-title { color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style .nxadd-pricing-price { padding: 20px 0; border-bottom: 1px solid #3f3f3f; margin: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style .nxadd-pricing-content { padding: 30px 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style .nxadd-pricing-content .nxadd-pricing-list li.nx-cross:before { color: #ff0000; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style .nxadd-pricing-action { margin-top: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style .nxadd-pricing-action .nxadd-btn { border-radius: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style:hover { background-color: #000; -webkit-box-shadow: 15px 15px 0 0 #009d97; box-shadow: 15px 15px 0 0 #009d97; }
+
+.themedev-pricing-area .nxadd-pricing-table.square-style:hover .nxadd-pricing-price .nxadd-price { color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style { background-color: #12aca6; border: unset; border-radius: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style .nxadd-pricing-header { padding: 20px 0; margin: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style .nxadd-pricing-header .pricing-title { color: #fff; letter-spacing: 6px; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style .nxadd-pricing-price { margin: 0 0 30px 0; padding: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style .nxadd-pricing-content { margin-bottom: 30px; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style .nxadd-pricing-action { margin-top: 0; margin-bottom: 30px; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style .nxadd-pricing-action .nxadd-btn { border-radius: 0; background: transparent; border-color: #fff; color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table.colorfull-style:hover .nxadd-pricing-price .nxadd-price { color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style { background: #FFF; padding: 35px 0; border-radius: 0; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-header { margin-bottom: 20px; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-header .pricing-title { color: #000; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-price { padding: 0; margin-bottom: 6em; background-color: #f8f8f8; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-price .nxadd-price { color: #000; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-price .nxadd-price sub { position: absolute; left: 0; top: 50px; width: 100%; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-price:after { position: absolute; content: ''; top: 100%; left: 0; border-style: solid; border-color: #f8f8f8 transparent transparent; border-width: 60px 175px 0px 175px; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-content .nxadd-pricing-list li { color: #000; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style .nxadd-pricing-action .nxadd-btn { border-radius: 0px; border: 1px solid #ee3131; background: #ee3131; color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style:hover .nxadd-pricing-price, .themedev-pricing-area .nxadd-pricing-table.wave-style.nxadd-active .nxadd-pricing-price { background-color: #ee3131; color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style:hover .nxadd-pricing-price .nxadd-price, .themedev-pricing-area .nxadd-pricing-table.wave-style.nxadd-active .nxadd-pricing-price .nxadd-price { color: #fff; }
+
+.themedev-pricing-area .nxadd-pricing-table.wave-style:hover .nxadd-pricing-price:after, .themedev-pricing-area .nxadd-pricing-table.wave-style.nxadd-active .nxadd-pricing-price:after { border-color: #ee3131 transparent transparent; }
+
+.themedev-pricing-area .nxadd-pricing-table.nxadd-pricing-bridge:before { position: absolute; content: 'Popular'; top: 0; right: 0; -webkit-transform: translateY(-40%); -ms-transform: translateY(-40%); transform: translateY(-40%); background-color: #fff; border-radius: 50%; font-size: 11px; font-weight: 600; color: #009d97; text-align: center; padding: 20px 10px; }

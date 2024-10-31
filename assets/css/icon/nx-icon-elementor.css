@@ -1,0 +1,430 @@
+@font-face {
+  font-family: 'next-addons';
+  src:  url('fonts/next-addons.eot?tlmd29');
+  src:  url('fonts/next-addons.eot?tlmd29#iefix') format('embedded-opentype'),
+    url('fonts/next-addons.ttf?tlmd29') format('truetype'),
+    url('fonts/next-addons.woff?tlmd29') format('woff'),
+    url('fonts/next-addons.svg?tlmd29#next-addons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.nx-addons {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'next-addons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nx-addons-T .path1:before {
+  content: "\e977";
+  color: rgb(7, 7, 7);
+}
+.nx-addons-T .path2:before {
+  content: "\e978";
+  margin-left: -0.70703125em;
+  color: rgb(236, 26, 58);
+}
+.nx-addons-T2 .path1:before {
+  content: "\e979";
+  color: rgb(7, 7, 7);
+}
+.nx-addons-T2 .path2:before {
+  content: "\e97a";
+  margin-left: -0.70703125em;
+  color: rgb(255, 255, 255);
+}
+.nx-addons-T2 .path3:before {
+  content: "\e97b";
+  margin-left: -0.70703125em;
+  color: rgb(236, 26, 58);
+}
+.nx-addons-facebook:before {
+  content: "\e973";
+}
+.nx-addons-instagram:before {
+  content: "\e974";
+}
+.nx-addons-share:before {
+  content: "\e975";
+}
+.nx-addons-twitter:before {
+  content: "\e976";
+}
+.nx-addons-cart:before {
+  content: "\e96f";
+}
+.nx-addons-online-shop:before {
+  content: "\e970";
+}
+.nx-addons-sale:before {
+  content: "\e971";
+}
+.nx-addons-promo:before {
+  content: "\e972";
+}
+.nx-addons-tab-blog1:before {
+  content: "\e964";
+}
+.nx-addons-tab-blog:before {
+  content: "\e965";
+}
+.nx-addons-tab-price1:before {
+  content: "\e966";
+}
+.nx-addons-tab-price:before {
+  content: "\e967";
+}
+.nx-addons-tab-testimonial1:before {
+  content: "\e968";
+}
+.nx-addons-tab-testimonial:before {
+  content: "\e969";
+}
+.nx-addons-tab-team2:before {
+  content: "\e96a";
+}
+.nx-addons-tab-team1:before {
+  content: "\e96b";
+}
+.nx-addons-tab-team:before {
+  content: "\e96c";
+}
+.nx-addons-search:before {
+  content: "\e96d";
+}
+.nx-addons-menu:before {
+  content: "\e96e";
+}
+.nx-addons-step-flow:before {
+  content: "\e961";
+}
+.nx-addons-drop-caps:before {
+  content: "\e962";
+}
+.nx-addons-business-hour:before {
+  content: "\e963";
+}
+.nx-addons-slider-1:before {
+  content: "\e95e";
+}
+.nx-addons-banner:before {
+  content: "\e95f";
+}
+.nx-addons-slider:before {
+  content: "\e960";
+}
+.nx-addons-period:before {
+  content: "\e95a";
+}
+.nx-addons-minimize:before {
+  content: "\e95b";
+}
+.nx-addons-edit-tools:before {
+  content: "\e95c";
+}
+.nx-addons-report:before {
+  content: "\e95d";
+}
+.nx-addons-icon:before {
+  content: "\e953";
+}
+.nx-addons-author:before {
+  content: "\e954";
+}
+.nx-addons-call-to-action:before {
+  content: "\e955";
+}
+.nx-addons-image-box-2:before {
+  content: "\e956";
+}
+.nx-addons-client:before {
+  content: "\e957";
+}
+.nx-addons-cloud-computing:before {
+  content: "\e958";
+}
+.nx-addons-flip:before {
+  content: "\e959";
+}
+.nx-addons-timeline:before {
+  content: "\e94e";
+}
+.nx-addons-type-writer:before {
+  content: "\e94f";
+}
+.nx-addons-inline-menu:before {
+  content: "\e950";
+}
+.nx-addons-tooltip:before {
+  content: "\e951";
+}
+.nx-addons-social-media:before {
+  content: "\e952";
+}
+.nx-addons-subscribe:before {
+  content: "\e934";
+}
+.nx-addons-subscribe1:before {
+  content: "\e935";
+}
+.nx-addons-subscribe2:before {
+  content: "\e936";
+}
+.nx-addons-accordion:before {
+  content: "\e937";
+}
+.nx-addons-accordion-pro:before {
+  content: "\e938";
+}
+.nx-addons-dual-button:before {
+  content: "\e939";
+}
+.nx-addons-dual-button1:before {
+  content: "\e93a";
+}
+.nx-addons-faq:before {
+  content: "\e93b";
+}
+.nx-addons-faq1:before {
+  content: "\e93c";
+}
+.nx-addons-hotspot-pro .path1:before {
+  content: "\e93d";
+  color: rgb(132, 111, 117);
+}
+.nx-addons-hotspot-pro .path2:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(132, 111, 117);
+}
+.nx-addons-hotspot-pro .path3:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(132, 111, 117);
+}
+.nx-addons-hotspot-pro .path4:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(132, 111, 117);
+}
+.nx-addons-hotspot-pro .path5:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(132, 111, 117);
+}
+.nx-addons-hotspot-pro .path6:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(235, 231, 242);
+}
+.nx-addons-hotspot-pro .path7:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(235, 231, 242);
+}
+.nx-addons-hotspot-pro .path8:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(235, 231, 242);
+}
+.nx-addons-hotspot-pro .path9:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(237, 154, 188);
+}
+.nx-addons-hotspot-pro .path10:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(237, 154, 188);
+}
+.nx-addons-hotspot-pro .path11:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(237, 154, 188);
+}
+.nx-addons-hotspot-pro .path12:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(237, 154, 188);
+}
+.nx-addons-pie:before {
+  content: "\e949";
+}
+.nx-addons-pie1:before {
+  content: "\e94a";
+}
+.nx-addons-price-list:before {
+  content: "\e94b";
+}
+.nx-addons-faq2:before {
+  content: "\e94c";
+}
+.nx-addons-faq11:before {
+  content: "\e94d";
+}
+.nx-addons-newspaper:before {
+  content: "\e932";
+}
+.nx-addons-writing:before {
+  content: "\e933";
+}
+.nx-addons-icon-box-10:before {
+  content: "\e92e";
+}
+.nx-addons-price-tag:before {
+  content: "\e92f";
+}
+.nx-addons-pricing-icon:before {
+  content: "\e930";
+}
+.nx-addons-pricing-tag:before {
+  content: "\e931";
+}
+.nx-addons-blogging:before {
+  content: "\e90b";
+}
+.nx-addons-button:before {
+  content: "\e90c";
+}
+.nx-addons-countdown-1:before {
+  content: "\e90d";
+}
+.nx-addons-countdown-2:before {
+  content: "\e90e";
+}
+.nx-addons-countdown-3:before {
+  content: "\e90f";
+}
+.nx-addons-customer-review:before {
+  content: "\e910";
+}
+.nx-addons-customer-satisfaction:before {
+  content: "\e911";
+}
+.nx-addons-fun-facts:before {
+  content: "\e912";
+}
+.nx-addons-fun-facts-line:before {
+  content: "\e913";
+}
+.nx-addons-gallery-1:before {
+  content: "\e914";
+}
+.nx-addons-gallery-2:before {
+  content: "\e915";
+}
+.nx-addons-gallery-3:before {
+  content: "\e916";
+}
+.nx-addons-gallery-4:before {
+  content: "\e917";
+}
+.nx-addons-group:before {
+  content: "\e918";
+}
+.nx-addons-hotspot:before {
+  content: "\e919";
+}
+.nx-addons-panel:before {
+  content: "\e91a";
+}
+.nx-addons-phone:before {
+  content: "\e91b";
+}
+.nx-addons-rating:before {
+  content: "\e91c";
+}
+.nx-addons-review:before {
+  content: "\e91d";
+}
+.nx-addons-tabs-1:before {
+  content: "\e91e";
+}
+.nx-addons-tabs-2:before {
+  content: "\e91f";
+}
+.nx-addons-team:before {
+  content: "\e920";
+}
+.nx-addons-testimonial:before {
+  content: "\e921";
+}
+.nx-addons-text:before {
+  content: "\e922";
+}
+.nx-addons-vacuum-tip:before {
+  content: "\e923";
+}
+.nx-addons-countdown-11:before {
+  content: "\e924";
+}
+.nx-addons-countdown-21:before {
+  content: "\e925";
+}
+.nx-addons-countdown-31:before {
+  content: "\e926";
+}
+.nx-addons-gallery-11:before {
+  content: "\e927";
+}
+.nx-addons-gallery-21:before {
+  content: "\e928";
+}
+.nx-addons-gallery-31:before {
+  content: "\e929";
+}
+.nx-addons-gallery-41:before {
+  content: "\e92a";
+}
+.nx-addons-gallery-5:before {
+  content: "\e92b";
+}
+.nx-addons-fun-facts1:before {
+  content: "\e92c";
+}
+.nx-addons-fun-facts-line1:before {
+  content: "\e92d";
+}
+.nx-addons-headding:before {
+  content: "\e900";
+}
+.nx-addons-icon-box:before {
+  content: "\e901";
+}
+.nx-addons-icon-box-line:before {
+  content: "\e902";
+}
+.nx-addons-image:before {
+  content: "\e903";
+}
+.nx-addons-image-box:before {
+  content: "\e904";
+}
+.nx-addons-image-box-line:before {
+  content: "\e905";
+}
+.nx-addons-image-comparison:before {
+  content: "\e906";
+}
+.nx-addons-image-comparison-line:before {
+  content: "\e907";
+}
+.nx-addons-image-line:before {
+  content: "\e908";
+}
+.nx-addons-progress-bar:before {
+  content: "\e909";
+}
+.nx-addons-progress-bar-line:before {
+  content: "\e90a";
+}

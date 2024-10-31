@@ -1,0 +1,59 @@
+section.themedev-image-box { margin: 0; padding: 0; }
+
+.themedev-image-box *, .themedev-image-box :after, .themedev-image-box :before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-image-box a { text-decoration: none; }
+
+.themedev-image-box a:active, .themedev-image-box a:hover, .themedev-image-box a:focus, .themedev-image-box a:visited { text-decoration: none; outline: 0; }
+
+.themedev-image-box img { max-width: 100%; vertical-align: middle; }
+
+.themedev-image-box .nxadd-btn { display: inline-block; font-weight: 400; text-align: center; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; line-height: 1; }
+
+.themedev-image-box .nxadd-btn-outline-dark { color: #343a40; background-color: transparent; background-image: none; border-color: #343a40; }
+
+.themedev-image-box .nx-btn-outline-dark { border-color: #000000; color: #000000; }
+
+.themedev-image-box .nx-link-icon { font-size: 18px; color: #2575fc; position: relative; display: inline-block; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-image-box .nxadd-des { margin: 0; }
+
+.themedev-image-box .nxadd-btn-wrapper { margin-top: 20px; }
+
+.themedev-image-box .nxadd-btn-wrapper .nxadd-btn { border-radius: 3px; font-size: 15px; padding: 12px 24px; -webkit-transition: all 0.4s ease; -o-transition: all 0.4s ease; transition: all 0.4s ease; }
+
+.themedev-image-box .nxadd-btn-wrapper .nxadd-btn i { vertical-align: middle; margin-left: 5px; margin-right: 5px; }
+
+.themedev-image-box .nxadd-image-box { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; position: relative; }
+
+.themedev-image-box .nxadd-image-box .box-thumble { position: relative; display: block; overflow: hidden; }
+
+.themedev-image-box .nxadd-image-box .box-thumble > img { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-image-box .nxadd-image-box .fulid-img { vertical-align: middle; width: 100%; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-image-box .nxadd-image-box .nxadd-box-body { padding: 55px 40px; background-color: #fff; border: 1px solid #f5f5f5; border-top: 0; position: relative; }
+
+.themedev-image-box .nxadd-image-box .nxadd-box-body .nxadd-image-box-title { font-size: 20px; margin-bottom: 20px; display: block; color: #000; }
+
+.themedev-image-box .nxadd-image-box .nxadd-box-body .nx-link-icon { display: block; margin-top: 20px; line-height: 1; color: #009d97; }
+
+.themedev-image-box .nxadd-image-box .nxadd-box-body .round { border-radius: 50%; }
+
+.themedev-image-box .nxadd-image-box:hover { -webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); }
+
+.themedev-image-box .nxadd-image-box:hover .box-thumble > img { -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); }
+
+.themedev-image-box .nxadd-image-box:hover .nxadd-btn-wrapper .nxadd-btn { background-color: #072EE4; color: #fff; }
+
+.themedev-image-box .nxadd-image-box.modern-style .nxadd-box-body { padding: 30px 40px; background-color: rgba(255, 255, 255, 0.9); position: relative; width: calc(100% - 40px); margin-top: -20px; z-index: 2; border-radius: 10px; margin-left: auto; margin-right: auto; -webkit-box-shadow: -1.216px 6.894px 25px 0px rgba(0, 0, 0, 0.07); box-shadow: -1.216px 6.894px 25px 0px rgba(0, 0, 0, 0.07); }
+
+.themedev-image-box .nxadd-image-box.style-solid .nxadd-box-body { background-color: #eeeeee; }
+
+.themedev-image-box .nxadd-image-box.style-solid .nxadd-box-body .nxadd-button { display: block; margin-top: 20px; }
+
+.themedev-image-box .nxadd-image-box.style-solid .nxadd-box-body .nxadd-button .nxadd-btn { color: #009d97; border-color: rgba(24, 24, 24, 0.1); }
+
+.themedev-image-box .nxadd-image-box.style-solid:hover .nxadd-button .nxadd-btn { background-color: #009d97; color: #fff; border-color: #009d97; }
+
+.themedev-image-box .nx-bounce-anim { -webkit-animation: nx-bounce-anim 3s infinite; animation: nx-bounce-anim 3s infinite; }

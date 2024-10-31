@@ -1,0 +1,24 @@
+.nx-focus-content {
+	position:relative;
+}
+.nx-focus-content .nx-focus-pane{
+	position:absolute;
+	visibility:hidden;
+	opacity:0;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: -webkit-transform 200ms ease;
+	transition: -webkit-transform 200ms ease;
+	transition: transform 200ms ease;
+	transition: transform 200ms ease, -webkit-transform 200ms ease;
+	-webkit-transform-origin: 50% 50%;
+}
+
+.nx-focus-content .nx-focus-pane.nx-show{
+	visibility:visible;
+	opacity:1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	
+}
+

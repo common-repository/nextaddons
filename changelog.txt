@@ -1,0 +1,90 @@
+== Changelog ==
+
+= 2.1.2 - 08 Mar 2020 =
+
+* Next Section Scroll - Create beautiful template and present to user by mouse scrolling
+* Next Link - Set link any Widgets or Section and Column
+
+= 2.1.1 - 08 Mar 2020 =
+
+* Widgets Background Overlay - Set overlay in each Widgets
+* Image Masking, CSS Filter PRO - Set Mask for design images. 
+* Effect - Set animation any Widgets
+* Generate Transform - translate, rotate, scale and skew 
+* Custom Motion Effect - Extend Elementor Motion Effect 
+
+= 2.1.0 - 03 Mar 2020 =
+
+* Fixed issues and others 
+* Next Duplicate - for duplicate post.
+* Next Custom Column - for column order and set custom width any inner section.
+
+= 2.0.12 - 25 Feb 2020 =
+
+* Fixed issues and others 
+
+= 2.0.11 - 25 Feb 2020 =
+
+* New widget Ajax Woo Shop for Woocommerce, Promo Box & Instagram Feed in PRO
+
+
+= 2.0.10 - 23 Feb 2020 =
+
+* New widget Woo Shop for Woocommerce
+* Bug Fixed
+
+= 2.0.8 - 10 Feb 2020 =
+
+* New widget Tab Blog, Ajax Blog added in PRO
+
+= 2.0.7 - 04 Feb 2020 =
+
+* Bug Fixed
+
+= 2.0.6 - 04 Feb 2020 =
+
+* New widget Icon Cap, Card, Tab Team, Tab Testimonial, Tab Price added in PRO
+
+= 2.0.5 - 04 Feb 2020 =
+
+* New widget Step Flow, Business Hours, Subscribe / News Letter, Social Counter, Social Share added
+* Header / Fotter Builder, MegaMenu Builder
+
+= 2.0.4 - 30 Jan 2020 =
+
+* New widget Tab, ToolTip added
+
+= 2.0.3 - 29 Jan 2020 =
+
+* New widget Price Menu added
+* Styles images set
+
+= 2.0.2 - 25 Jan 2020 =
+
+* Css  modify
+
+= 2.0.1 - 25 Jan 2020 =
+
+* New widget Image Slider added
+* Team, Testimonial Update
+
+= 2.0.0 - 23 Jan 2020 =
+
+* New Widgets: Accordion, Image Slider
+* Team, Testimonial, Blog, Blog Feed, Slider Gallery: Slider control modify
+
+= 1.0.2 - 22 Jan 2020 =
+* New Widgets: Pie Chart, Image Accordion
+* Team: Added new styles
+* Testimonial: control modify
+
+= 1.0.1 - 21 Jan 2020 =
+* Issues fixed
+
+= 1.0.0 - 19 Jan 2020 =
+
+* New: Icon Box, Image Box, Flip Box, Blog, Blog Feed, Button, Dual Button, FunFact, Comparison, Hotspots, Heading, Pricing Table, Gallery, Tab Gallery, Slider Gallery, Skill Bar / Progress, Team, Testimonial / Client Review
+
+= 0.0.1 - 18 January 2020 =
+
+* Initial release

@@ -1,0 +1,103 @@
+/*slider nx-control-dot Start CSS*/
+ul.nx-control-dot {
+    left: 50%;
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    vertical-align: middle;
+    display: block;
+    transform: translateY(50%) translateX(-50%);
+    text-align: center;
+    list-style: none;
+	width: auto;
+	margin: unset;
+}
+ul.nx-control-dot li{
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 50%;
+	transition: all 0.4s ease;
+}
+
+ul.nx-control-dot > li.nx-dot-span {
+	margin: unset;
+    margin-right: 8px;
+    line-height: unset;
+}
+
+ul.nx-control-dot > li.nx-dot-span.active {
+	background: #009d97;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	transition: all 0.4s ease;
+	
+}
+ul.nx-control-dot > li.nx-dot-span:hover{
+	background-color: #009d97;
+	-webkit-box-shadow: 0px 40px 60px 0px rgba(0,0,0,.3);
+	box-shadow: 0px 40px 60px 0px rgba(0,0,0,.3);
+}
+
+/*slider nx-control-dot END CSS*/
+
+.nx-item-slider{
+	opacity:1;
+	visibility:visible;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nx-active{
+	opacity:1;
+	visibility:visible;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	z-index:99;
+	
+}
+.nx-previous, .nx-next{
+	width: 40px;
+	height: 40px;
+	top: 50%;
+	padding: 0;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #009d97;
+	border: none;
+	color: #FFF;
+	display: block;
+	-webkit-transition: .4s ease;
+	transition: .4s ease;
+	cursor: pointer;
+	outline: none;
+	z-index: 99;
+}
+
+.nx-previous {
+	left: 0px;
+}
+
+.nx-previous:hover{
+	background-color: #077b77;
+}
+
+span.nx-dot-span.active {
+	background-color: #009d97;
+	transform: scale(2);
+	opacity: 1;
+}
+
+.nx-next {
+	right: 0;
+}
+
+.nx-next:hover{
+	background-color: #009d97;
+}
+
+.nx-slider-content button:focus{
+	outline: none;
+}

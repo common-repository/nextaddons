@@ -1,0 +1,66 @@
+section.themedev-advance-blog-post-area { margin: 0; padding: 0; }
+
+.themedev-advance-blog-post-area *, .themedev-advance-blog-post-area :after, .themedev-advance-blog-post-area :before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-advance-blog-post-area ul, .themedev-advance-blog-post-area li { margin: 0; padding: 0; list-style: none; }
+
+.themedev-advance-blog-post-area a, .themedev-advance-blog-post-area a:active, .themedev-advance-blog-post-area a:hover, .themedev-advance-blog-post-area a:focus, .themedev-advance-blog-post-area a:visited { text-decoration: none; outline: 0; }
+
+.themedev-advance-blog-post-area h1, .themedev-advance-blog-post-area h2, .themedev-advance-blog-post-area h3, .themedev-advance-blog-post-area h4, .themedev-advance-blog-post-area h5, .themedev-advance-blog-post-area h6 { color: #000000; font-weight: 700; }
+
+.themedev-advance-blog-post-area a { color: #fff; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-advance-blog-post-area .thumb-img { width: 100%; -o-object-fit: cover; object-fit: cover; vertical-align: middle; -webkit-transition: all 0.4s ease; -o-transition: all 0.4s ease; transition: all 0.4s ease; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap { display: block; position: relative; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .post-image { position: relative; overflow: hidden; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .author-image { position: relative; width: 25px; height: 25px; border-radius: 50%; margin-right: 15px; display: inline-block; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-thumbnail { position: relative; margin-bottom: 3px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-thumbnail .nxadd-thumb { overflow: hidden; position: relative; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-thumbnail .nxadd-thumb.round { border-radius: 5px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content { position: absolute; bottom: 0; z-index: 1; padding: 20px 20px 10px 20px; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-meta-list > span { color: #a3a3a3; display: inline-block; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-meta-list > span:not(:last-child) { margin-right: 10px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-meta-list > span i { margin-right: 5px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-meta-list > span a { color: rgba(255, 255, 255, 0.5); }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-meta-list { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 20px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-meta-list .meta-data { font-size: 12px; font-weight: 500; line-height: 10px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-meta-list span a { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-post-title { font-size: 16px; margin-top: 0; margin-bottom: 10px; line-height: 20px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-post-title a { color: #fff; -webkit-transition: all 0.4s ease; -o-transition: all 0.4s ease; transition: all 0.4s ease; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-post-title.fz-large { font-size: 25px; margin-bottom: 15px; line-height: 30px; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-content .nxadd-post-title.fz-medium { font-size: 18px; font-weight: 600; line-height: 20px; margin-bottom: 10px; margin-bottom: 0; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-background-overlay { position: absolute; display: block; width: 100%; height: 100%; z-index: 1; bottom: 0; left: 0; background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, transparent), to(rgba(0, 0, 0, 0.95))); background: -webkit-linear-gradient(top, transparent 55%, rgba(0, 0, 0, 0.95) 100%); background: -o-linear-gradient(top, transparent 55%, rgba(0, 0, 0, 0.95) 100%); background: linear-gradient(to bottom, transparent 55%, rgba(0, 0, 0, 0.95) 100%); }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .post-category { position: absolute; left: 0; top: 0; background-color: #ff0001; color: #fff; font-size: 12px; font-weight: 600; padding: 2px 13px; text-transform: uppercase; line-height: 24px; display: inline-block; z-index: 2; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap .nxadd-blog-post-thumbnail:hover .post-image > img { -webkit-transform: scale3d(1.1, 1.1, 1); transform: scale3d(1.1, 1.1, 1); opacity: .8; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap.block-gradient .nxadd-blog-post-thumbnail:after { background: rgba(0, 0, 0, 0.2); position: absolute; display: block; width: 100%; height: 100%; z-index: 0; bottom: 0; left: 0; content: ''; opacity: 0; -webkit-transition: all ease 500ms; -o-transition: all ease 500ms; transition: all ease 500ms; }
+
+.themedev-advance-blog-post-area .nxadd-blog-post-wrap.block-gradient .nxadd-blog-post-thumbnail:hover:after { opacity: 1; }
+
+.themedev-advance-blog-post-area .nx-row-1 > [class*="nx-col-"] { padding-left: 1px; padding-right: 1px; }
+
+@media (max-width: 991px) { .themedev-blog-post-area .dot-style1 .nx-next { right: 42%; } }
+
+@media (max-width: 767px) { .themedev-blog-post-area .dot-style1 .nx-previous { left: 33%; }
+  .themedev-blog-post-area .dot-style1 .nx-next { right: 35%; } }

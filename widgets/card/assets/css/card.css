@@ -1,0 +1,52 @@
+
+.themdev-card-area *, .themdev-card-area :after, .themdev-card-area :before { position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themdev-card-area a { text-decoration: none; }
+
+.themdev-card-area a:active, .themdev-card-area a:hover, .themdev-card-area a:focus, .themdev-card-area a:visited { text-decoration: none; outline: 0; color: inherit; }
+
+.themdev-card-area img { width: 100%; max-width: 100%; -o-object-fit: cover; object-fit: cover; height: auto; vertical-align: middle;}
+
+.themdev-card-area figure { margin: 0; position: relative;  overflow: hidden; padding: 0px; align-items: center; align-self: center;}
+
+.themdev-card-area .nxadd-card-badge { font-size: 12px; color: #333;  position: absolute; top: 0; left: 0; border: 1px solid #000; padding: 2px 5px; border-radius: 5px; z-index: 99; }
+
+.themdev-card-area .nxadd-product-price { font-size: 18px; color: #de1672; font-weight: 500; margin-bottom: 10px; display: block; }
+
+.themdev-card-area .nxadd-card-box { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; align-items: center; transition: all .4s ease;}
+
+.themdev-card-area .nxadd-card-box .nxadd-card-body{ padding: 15px;}
+
+.themdev-card-area .nxadd-card-box .nxadd-card-body .nxadd-card-title { margin: 0; font-size: 20px; font-weight: 600; line-height: 28px;}
+
+.themdev-card-area .nxadd-card-box .nxadd-card-body .nxadd-card-text .card-des { margin: 0; font-size: 14px; line-height: 22px; margin-bottom: 10px; }
+
+.themdev-card-area .nxadd-card-box .nxadd-card-body .nxadd-btn-wrapper { position: relative; display: inline-block; }
+
+.themdev-card-area .nxadd-card-box .nxadd-card-body .nxadd-btn-wrapper .nxadd-btn { display: -webkit-box; display: -ms-flexbox; display: flex; font-weight: 400; text-align: center; white-space: nowrap; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; line-height: 1; font-size: 15px; padding: 12px 16px; color: #000; background-color: #fff; border: 1px solid #ccc; transition: all .6s ease;}
+
+.themdev-card-area .nxadd-card-box .nxadd-card-body .nxadd-btn-wrapper .nxadd-btn.nxadd-left-icon { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+
+.themdev-card-area .nxadd-card-box .nxadd-card-body .nxadd-btn-wrapper .nxadd-btn.nxadd-left-icon .nextaddons-icon { margin-right: 5px; }
+
+.themdev-card-area .nxadd-card-box.nx-top-layout { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.themdev-card-area .nxadd-card-box.nx-bottom-layout { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+.themdev-card-area .nxadd-card-box.nx-left-layout { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+
+.themdev-card-area .nxadd-card-box.nx-left-layout .nxadd-card-header { -ms-flex-preferred-size: 35%; flex-basis: 35%; margin-right: 20px; }
+
+.themdev-card-area .nxadd-card-box.nx-right-layout { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+
+.themdev-card-area .nxadd-card-box.nx-right-layout .nxadd-card-header { -ms-flex-preferred-size: 35%; flex-basis: 35%; margin-left: 20px;}
+
+
+@media (max-width: 767px){
+    .themdev-card-area .nxadd-card-box {
+        display: block;
+    }
+    .themdev-card-area .nxadd-card-box.nx-right-layout .nxadd-card-header, .themdev-card-area .nxadd-card-box.nx-left-layout .nxadd-card-header {
+        margin: 0;
+    }
+}

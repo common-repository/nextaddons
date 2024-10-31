@@ -1,0 +1,29 @@
+section.themedev-dual-button-wrapper { margin: 0; padding: 0; }
+
+.themedev-dual-button-wrapper a { text-decoration: none; outline: 0; }
+
+.themedev-dual-button-wrapper a:active, .themedev-dual-button-wrapper a:focus, .themedev-dual-button-wrapper a:hover, .themedev-dual-button-wrapper a:visited { text-decoration: none; outline: 0; }
+
+.themedev-dual-button-wrapper .nxadd-dual-btn { cursor: pointer; display: inline-block; font-size: 14px; font-weight: 700; outline: none; position: relative; -webkit-transition: all 0.4s ease; -o-transition: all 0.4s ease; transition: all 0.4s ease; text-align: center; overflow: hidden; color: #FFFFFF; width: 100%; background-color: #545454; padding: 20px; z-index: 1; }
+
+.themedev-dual-button-wrapper .nxadd-dual-btn:hover { background-color: #3d3d3d; }
+
+.themedev-dual-button-wrapper .nxadd-dual-btn-one { background-color: #5580ff; }
+
+.themedev-dual-button-wrapper .nxadd-dual-btn-one:hover { background-color: #3a6cff; }
+
+.themedev-dual-button-wrapper .nxadd-dual-button { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; overflow: hidden; }
+
+.themedev-dual-button-wrapper .nxadd-dual-button.nx-skew-style .nxadd-dual-btn { background-color: transparent; overflow: visible; }
+
+.themedev-dual-button-wrapper .nxadd-dual-button.nx-skew-style .nxadd-dual-btn:before { content: ''; display: block; height: 100%; left: -16px; position: absolute; top: 0; -webkit-transform: skewX(-25deg); -ms-transform: skewX(-25deg); transform: skewX(-25deg); width: 112%; -webkit-transition: all 0.4s ease, -webkit-transform 0.4s ease; transition: all 0.4s ease, -webkit-transform 0.4s ease; -o-transition: all 0.4s ease, transform 0.4s ease; transition: all 0.4s ease, transform 0.4s ease; transition: all 0.4s ease, transform 0.4s ease, -webkit-transform 0.4s ease; background-color: #ff013c; z-index: -1; }
+
+.themedev-dual-button-wrapper .nxadd-dual-button.nx-skew-style .nxadd-dual-btn.nxadd-dual-btn-one:before { background-color: #000; }
+
+.themedev-dual-button-wrapper .nxadd-dual-button.nx-skew-style .nxadd-dual-btn.nxadd-dual-btn-two:before { left: 0; right: -16px; }
+
+.themedev-dual-button-wrapper .nxadd-dual-button.nx-skew-style .nxadd-dual-btn:hover:before { background-color: #237bff; }
+
+.themedev-dual-button-wrapper .nxadd-dual-button.nx-skew-style .nxadd-dual-btn:hover.nxadd-dual-btn-one:before { background-color: #ff001f; }
+
+@media (max-width: 480px) { .themedev-dual-button-wrapper .nxadd-dual-button { display: block; } }

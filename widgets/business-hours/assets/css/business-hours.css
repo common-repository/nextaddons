@@ -1,0 +1,18 @@
+
+.themedev-business-hours-wrapper *, .themedev-business-hours-wrapper ::after, .themedev-business-hours-wrapper ::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.themedev-business-hours-wrapper a { -webkit-box-shadow: none; box-shadow: none; text-decoration: none; }
+
+.themedev-business-hours-wrapper a:active, .themedev-business-hours-wrapper a:hover, .themedev-business-hours-wrapper a:focus, .themedev-business-hours-wrapper a:visited { outline: none; text-decoration: none; }
+
+.themedev-business-hours-wrapper ul, .themedev-business-hours-wrapper li { margin: 0; padding: 0; list-style: none; }
+
+.themedev-business-hours-wrapper .nxadd-business-hours-inner { display: block; margin: 0; padding: 0; }
+
+.themedev-business-hours-wrapper .nxadd-business-hours-inner li.nxadd-business-hour-title { padding: 18px; background-color: #2575fc; display: block; }
+
+.themedev-business-hours-wrapper .nxadd-business-hours-inner li.nxadd-business-hour-title h3 { margin: 0; color: #fff; font-size: 18px; line-height: 1; }
+
+.themedev-business-hours-wrapper .nxadd-business-hours-inner .nxadd-business-hour-single-item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 18px; border-bottom: 1px solid #ccc; }
+
+.themedev-business-hours-wrapper .nxadd-business-hours-inner .nxadd-business-hour-single-item:last-child { border-bottom: 0; }

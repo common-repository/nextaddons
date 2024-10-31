@@ -1,0 +1,33 @@
+.themedev-image-slider-wrapper{
+    margin:0px; padding: 0px;
+}
+
+.themedev-image-slider-wrapper .nxadd-image-slider-item{
+    position: relative;
+}
+
+.themedev-image-slider-wrapper .nxadd-image-slider-item .nxadd-entry-caption .nxadd-title{
+    margin: 0;
+    font-size: 20px;
+}
+
+.themedev-image-slider-wrapper .nxadd-image-slider-item .nxadd-entry-caption .nxadd-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.themedev-image-slider-wrapper .nxadd-image-slider-item .nxadd-entry-caption{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.themedev-image-slider-wrapper .nxadd-image-slider-item .nxadd-entry-caption.nx-bottom{
+    top: auto;
+}

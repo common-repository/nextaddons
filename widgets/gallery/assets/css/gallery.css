@@ -1,0 +1,119 @@
+.themedev-gallery-area a { -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; outline: none; text-decoration: none; }
+
+.themedev-gallery-area a:active, .themedev-gallery-area a:hover, .themedev-gallery-area a:focus, .themedev-gallery-area a:visited { text-decoration: none; outline: 0; }
+
+.themedev-gallery-area img { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; vertical-align: middle; }
+
+.themedev-gallery-area .nxadd-btn:not([class*="btn-outline-"]) { border: 0px; }
+
+.themedev-gallery-area .nxadd-btn:focus, .themedev-gallery-area .nxadd-btn:hover { text-decoration: none; border: unset; }
+
+.themedev-gallery-area .nxadd-btn:not(:disabled):not(.disabled) { cursor: pointer; }
+
+.themedev-gallery-area .nxadd-btn { display: inline-block; background-color: #009d97; color: #ffffff; border-radius: 5px; font-size: 13px; font-weight: 400; text-align: center; padding: 0px 20px; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; border: 1px solid transparent; pointer-events: none; }
+
+.themedev-gallery-area .nxadd-btn:not(:last-child) { margin-right: 15px; }
+
+.themedev-gallery-area .nxadd-single-gallery-item { position: relative; overflow: hidden; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-img { width: 100%; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-box-body { position: absolute; top: 70%; left: 50%; width: 80%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); opacity: 0; z-index: 2; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-gallery-title { margin: 0; margin-bottom: 10px; font-size: 20px; display: block; color: #ffffff; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-des { margin: 0; margin-bottom: 10px; color: #ffffff; font-size: 14px; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-button { display: block; margin-top: 20px; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-button .nx-btn-outline-dark { border-color: rgba(37, 117, 252, 0.2); }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-custom-gallery-content { background-color: #ffffff; text-align: center; padding: 25px; margin-bottom: 5px; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-custom-gallery-content .nxadd-gallery-title { color: #000; font-size: 18px; margin-top: 0; margin-bottom: 5px; }
+
+.themedev-gallery-area .nxadd-single-gallery-item .nxadd-custom-gallery-content .nxadd-des { color: #000; }
+
+.themedev-gallery-area .nxadd-single-gallery-item.image-card:before, .themedev-gallery-area .nxadd-single-gallery-item.image-card:after { position: absolute; content: ''; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-gallery-area .nxadd-single-gallery-item.image-card:before { top: 0; left: 0; width: 100%; height: 100%; background-color: #000; opacity: 0; }
+
+.themedev-gallery-area .nxadd-single-gallery-item.image-card:after { top: 20px; left: 20px; right: 20px; bottom: 20px; border: 3px solid #fff; opacity: .5; }
+
+.themedev-gallery-area .nxadd-single-gallery-item:hover.image-card:before { opacity: .8; }
+
+.themedev-gallery-area .nxadd-single-gallery-item:hover.image-card:after { opacity: 1; }
+
+.themedev-gallery-area .nxadd-single-gallery-item:hover .nxadd-box-body { top: 50%; opacity: 1; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item { -webkit-column-break-inside: avoid; break-inside: avoid; width: 100%; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb { position: relative; height: 100%; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area:before { position: absolute; content: ''; top: 0; left: 0; height: 100%; width: 100%; background-color: #000; opacity: 0; z-index: 1; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content { position: absolute; top: 50%; left: 50%; width: 100%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; z-index: 2; opacity: 0; visibility: hidden; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content .nx-gallery-icon { position: relative; color: #fff; font-size: 18px; width: 60px; height: 60px; line-height: 60px; display: inline-block; background-color: #000; border-radius: 50px; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; cursor: pointer; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area:before { opacity: .5; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area .nxadd-hover-content { opacity: 1; visibility: visible; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-videos-section { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100%; height: auto; text-align: center; z-index: 2; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-videos-section .nxadd-videos-title { margin: 0; color: #fff; font-size: 23px; font-weight: 500; line-height: 27px; letter-spacing: .5px; }
+
+.themedev-gallery-area .nxadd-gallery-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-videos-section .nxadd-videos-des { margin: 0; color: #fff; font-size: 14px; font-weight: 400; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-hovereffect .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content { opacity: 1; visibility: visible; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-hovereffect .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content .nxadd-gallery-title, .themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-hovereffect .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content .nxadd-des { display: none; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-hovereffect .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content .nx-gallery-icon { margin: 0; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-hovereffect .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area .nxadd-hover-content .nxadd-gallery-title, .themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-hovereffect .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area .nxadd-hover-content .nxadd-des { display: block; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-hovereffect .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area .nxadd-hover-content .nx-gallery-icon { display: none; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-smartvideo .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content { opacity: 1; visibility: visible; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-smartvideo .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content .nx-gallery-icon { display: none; margin: 0; -webkit-transition: all .4s ease; -o-transition: all .4s ease; transition: all .4s ease; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-smartvideo .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area .nxadd-hover-content .nxadd-gallery-title, .themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-smartvideo .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area .nxadd-hover-content .nxadd-des { display: none; }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery.nx-smartvideo .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area .nxadd-hover-content .nx-gallery-icon { display: inline-block; }
+
+.themedev-gallery-area .nxadd-gallery-style.masonary-coloum-style { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 10px; column-gap: 10px; }
+
+.themedev-gallery-area .nxadd-gallery-style.masonary-no-gap { -webkit-column-count: 3; column-count: 3; -webkit-column-gap: 0px; column-gap: 0px; }
+
+.themedev-gallery-area .nxadd-gallery-style.masonary-no-gap .nxadd-single-gallery-item { margin-bottom: 0; }
+
+.themedev-gallery-area .nxadd-gallery-style.grid-style .nxadd-single-gallery-item { width: 32.7%; max-width: 100%; float: left; margin: 3px; height: auto; overflow: hidden; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+
+.themedev-gallery-area .nxadd-gallery-style.grid-style .nxadd-single-gallery-item .nxadd-img { -webkit-transition: all 0.4s ease; -o-transition: all 0.4s ease; transition: all 0.4s ease; }
+
+.themedev-gallery-area .nxadd-gallery-style.content-grid-style .nxadd-single-gallery-item { width: 374px; height: 100%; margin: 3px; max-width: 100%; float: left; }
+
+.themedev-gallery-area .nxadd-gallery-style.content-grid-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area:before { -webkit-transform: translateY(-100px); -ms-transform: translateY(-100px); transform: translateY(-100px); background-color: rgba(255, 255, 255, 0.8); -webkit-transition: .3s ease-out; -o-transition: .3s ease-out; transition: .3s ease-out; z-index: 1; -webkit-transition-property: opacity,stroke-dashoffset,-webkit-transform,-webkit-filter; transition-property: opacity,stroke-dashoffset,-webkit-transform,-webkit-filter; -o-transition-property: opacity,transform,filter,stroke-dashoffset; transition-property: opacity,transform,filter,stroke-dashoffset; transition-property: opacity,transform,filter,stroke-dashoffset,-webkit-transform,-webkit-filter; }
+
+.themedev-gallery-area .nxadd-gallery-style.content-grid-style .nxadd-single-gallery-item .nxadd-portfolio-thumb .nxadd-hover-area .nxadd-hover-content .nx-gallery-icon { background-color: #ff2020; color: #fff; }
+
+.themedev-gallery-area .nxadd-gallery-style.content-grid-style .nxadd-single-gallery-item .nxadd-portfolio-thumb:hover .nxadd-hover-area:before { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+
+.themedev-gallery-area .nxadd-gallery-style.nxadd-video-gallery .nxadd-single-gallery-item .nxadd-portfolio-thumb iframe { display: none; }
+
+@media (max-width: 1200px) { .themedev-gallery-area .nxadd-single-gallery-item.image-card { margin-bottom: 10px; } }
+
+@media (max-width: 1024px) { .themedev-gallery-area .nxadd-gallery-style.grid-style .nxadd-single-gallery-item { width: 49%; }
+  .themedev-gallery-area .nxadd-gallery-style.content-grid-style .nxadd-single-gallery-item { width: 49%; } }
+
+@media (max-width: 991px) { .themedev-gallery-area .nxadd-single-gallery-item.image-card { margin-bottom: 10px; }
+  .themedev-gallery-area .nxadd-gallery-style.masonary-coloum-style { -webkit-column-count: 2; column-count: 2; }
+  .themedev-gallery-area .nxadd-gallery-style.masonary-no-gap { -webkit-column-count: 2; column-count: 2; }
+  .themedev-gallery-area .nxadd-gallery-style.grid-style .nxadd-single-gallery-item { width: 49%; } }
+
+@media (max-width: 767px) { .themedev-gallery-area .nxadd-gallery-style.masonary-coloum-style { -webkit-column-count: 1; column-count: 1; }
+  .themedev-gallery-area .nxadd-gallery-style.masonary-no-gap { -webkit-column-count: 1; column-count: 1; }
+  .themedev-gallery-area .nxadd-gallery-style.grid-style .nxadd-single-gallery-item { width: 100%; } }

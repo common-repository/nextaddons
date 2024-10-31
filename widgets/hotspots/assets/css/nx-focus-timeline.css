@@ -1,0 +1,24 @@
+.nx-focus-content {
+	position:relative;
+}
+.nx-focus-content .nx-focus-pane{
+	position:absolute;
+	visibility:hidden;
+	opacity:0;
+}
+
+.nx-focus-content .nx-focus-pane.nx-show{
+	visibility:visible;
+	opacity:1;
+}
+
+.next-tooltip {
+    position: relative;
+    z-index: 1070;
+    display: inline-block;
+    margin: 0;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+    opacity: 0;
+    line-height: inherit;
+}
